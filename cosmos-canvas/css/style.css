@@ -89,3 +89,21 @@ p {
   text-indent: 20px;
   border-radius: 15px;
 }
+@media only screen and (max-width: 750px) {
+  img {
+    max-width: 500px;
+  }
+  p {
+    margin: -10% 5%;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 450px;
+  }
+  p {
+    font-size: .75rem;
+    margin: -10% 5%;
+  }
+}
